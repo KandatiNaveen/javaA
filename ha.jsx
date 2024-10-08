@@ -9,9 +9,7 @@ export const NotebookCard = (props) => {
     const [dialogOpen, setDialogOpen] = useState(false);
     const open = Boolean(anchorEl);
 
-    const handleClick = (event) => {
-        setAnchorEl(event.currentTarget);
-    };
+   
 
     const handleClose = () => {
         setAnchorEl(null);
